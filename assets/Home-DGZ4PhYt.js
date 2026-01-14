@@ -1,0 +1,1 @@
+import{r as e,t}from"./index-CymsbKo3.js";import{n,r,t as i}from"./Content-w7HMHUdA.js";var a=t();function o(){let t=e();return(0,a.jsxs)(`div`,{children:[(0,a.jsx)(r,{}),(0,a.jsxs)(i,{children:[`Home Page`,(0,a.jsx)(`button`,{onClick:()=>t(`/cart`),children:`주문`})]}),(0,a.jsx)(n,{})]})}export{o as default};

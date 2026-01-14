@@ -1,0 +1,1 @@
+import{t as e}from"./index-CymsbKo3.js";import{n as t,r as n,t as r}from"./Content-w7HMHUdA.js";import{t as i}from"./ConcertNav-CuJB3a7z.js";var a=e();function o(){return(0,a.jsxs)(`div`,{children:[(0,a.jsx)(n,{}),(0,a.jsx)(i,{}),(0,a.jsx)(r,{children:`ConcertsHome Page`}),(0,a.jsx)(t,{})]})}export{o as default};
