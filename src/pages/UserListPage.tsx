@@ -1,9 +1,9 @@
 import React from 'react';
-import {LoadingSpinner} from '../components/users/LoadingSpinner';
-import {ErrorMessage} from '../components/users/ErrorMessage';
-import type {User} from '../components/users/UserCard';
-import {UserCardContainer} from '../components/users/UserCardContainer';
-import {UserHeader} from '../components/users/UserHeader';
+import {LoadingSpinner} from '@/components/users/LoadingSpinner';
+import {ErrorMessage} from '@/components/users/ErrorMessage';
+import type {User} from '@/components/users/UserCard';
+import {UserCardContainer} from '@/components/users/UserCardContainer';
+import {UserHeader} from '@/components/users/UserHeader';
 
 
 export default function UserListPage() {

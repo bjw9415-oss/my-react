@@ -1,5 +1,5 @@
 
-import { UserCard ,type User} from "./UserCard";
+import { UserCard ,type User} from "@/components/users/UserCard";
 
 export function UserCardContainer({ users }: { users: User[] }) {
   return (

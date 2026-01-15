@@ -12,20 +12,20 @@ import './App.css';
 // import City from './pages/concerts/City';
 // import Trending from './pages/concerts/Trending';
 
-const Home = React.lazy(() => import('./pages/Home'));
-const ProductDetail = React.lazy(() => import('./pages/ProductDetail'));
-const Cart = React.lazy(() => import('./pages/Cart'));
-const Order = React.lazy(() => import('./pages/Order'));
-const NotFound = React.lazy(() => import('./pages/NotFound'));
-const ConcertsHome = React.lazy(() => import('./pages/concerts/ConcertsHome'));
-const City = React.lazy(() => import('./pages/concerts/City'));
-const Trending = React.lazy(() => import('./pages/concerts/Trending'));
+const Home = React.lazy(() => import('@/pages/Home'));
+const ProductDetail = React.lazy(() => import('@/pages/ProductDetail'));
+const Cart = React.lazy(() => import('@/pages/Cart'));
+const Order = React.lazy(() => import('@/pages/Order'));
+const NotFound = React.lazy(() => import('@/pages/NotFound'));
+const ConcertsHome = React.lazy(() => import('@/pages/concerts/ConcertsHome'));
+const City = React.lazy(() => import('@/pages/concerts/City'));
+const Trending = React.lazy(() => import('@/pages/concerts/Trending'));
 //
-const UseCallback = React.lazy(() => import('./pages/UseCallback'));
-const UseMemo = React.lazy(() => import('./pages/UseMemo'));
-const Condition = React.lazy(() => import('./pages/Condition'));
-const UseEffectExample = React.lazy(() => import('./pages/UseEffectExample'));
-const UserListPage = React.lazy(() => import('./pages/UserListPage'));
+const UseCallback = React.lazy(() => import('@/pages/UseCallback'));
+const UseMemo = React.lazy(() => import('@/pages/UseMemo'));
+const Condition = React.lazy(() => import('@/pages/Condition'));
+const UseEffectExample = React.lazy(() => import('@/pages/UseEffectExample'));
+const UserListPage = React.lazy(() => import('@/pages/UserListPage'));
 function App() {
   return (
     <BrowserRouter basename="/my-react-app">

@@ -1,5 +1,5 @@
 
-import type { User } from "./UserCard";
+import type { User } from "@/components/users/UserCard";
 
 interface UserHeaderProps {
   users: User[];
