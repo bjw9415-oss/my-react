@@ -3,8 +3,8 @@ import type { User } from '@/components/users/UserCard';
 //  Props 인터페이스 정의 (TypeScript)
 // 부모 컴포넌트(UserListPage)로부터 받아야 할 '준비물' 명세서입니다.
 interface UserHeaderProps {
-  users: User[];
-  isLoading: boolean;
+  users?: User[];
+  isLoading?: boolean;
   fetchUsers: () => Promise<void>;
 }
 //  구조 분해 할당
@@ -16,7 +16,7 @@ export function UserHeader({ users, isLoading, fetchUsers }: UserHeaderProps) {
         <div className="text-4xl font-bold text-gray-800">👥 User Directory</div>
         {/*  데이터 바인딩 */}
         {/* users 배열의 길이(.length)를 이용해 '총 인원'을 동적으로 표시. */}
-        <div className="mt-2 text-gray-600">총 {users.length}명의 사용자</div>
+        <div className="mt-2 text-gray-600">총 {users?.length || 0}명의 사용자</div>
       </div>
 
       <button

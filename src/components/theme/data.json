@@ -1,0 +1,28 @@
+{
+  "menuItems": [
+    { "icon": "🏠", "label": "Home" },
+    { "icon": "📊", "label": "Dashboard" },
+    { "icon": "👥", "label": "Users" },
+    { "icon": "⚙️", "label": "Settings" },
+    { "icon": "📧", "label": "Messages" }
+  ],
+
+  "cards": [
+    {
+      "title": "카드 1",
+      "content": "Context API를 사용하면 Props Drilling 없이 전역 상태를 관리할 수 있습니다."
+    },
+    {
+      "title": "카드 2",
+      "content": "useContext 훅으로 어떤 깊이의 컴포넌트에서도 데이터에 접근할 수 있습니다."
+    },
+    {
+      "title": "카드 3",
+      "content": "테마가 변경되면 모든 컴포넌트가 자동으로 업데이트됩니다."
+    },
+    {
+      "title": "카드 4",
+      "content": "localStorage를 활용하여 사용자의 테마 선택을 저장할 수 있습니다."
+    }
+  ]
+}
