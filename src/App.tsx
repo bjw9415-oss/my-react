@@ -34,6 +34,7 @@ const UseTogglePage = React.lazy(() => import('@/pages/UseTogglePage'));
 const UseLocalStoragePage = React.lazy(() => import('@/pages/UseLocalStoragePage'));
 const UseFetchPage = React.lazy(() => import('@/pages/UseFetchPage'));
 const UseDebouncePage = React.lazy(() => import('@/pages/UseDebouncePage'));
+const ShoppingPage = React.lazy(() => import('@/pages/ShoppingPage'));
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
           <Route path="useLocalStoragePage" element={<UseLocalStoragePage />} />
           <Route path="useFetchPage" element={<UseFetchPage />} />
           <Route path="useDebouncePage" element={<UseDebouncePage />} />
+          <Route path="shopping" element={<ShoppingPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
